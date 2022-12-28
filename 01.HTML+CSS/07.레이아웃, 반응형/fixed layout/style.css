@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.wrap {
+  overflow: hidden;
+  min-width: 1200px;
+}
+
+header {
+  height: 200px;
+  background-color: aqua;
+  position: relative;
+}
+
+main {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.left_side {
+  width: 900px;
+  float: left;
+  background-color: azure;
+  height: 2000px;
+}
+
+.right_side {
+  width: 300px;
+  float: right;
+  background-color: aquamarine;
+  height: 2000px;
+}
+
+footer {
+  height: 500px;
+  background-color: plum;
+}
+
+section {
+  margin: 20px 0;
+}
